@@ -6,7 +6,7 @@ This is intended to disable push-to-talk of any voice chat software so I can bab
 **Credit** goes to [/u/sirus20x6](https://www.reddit.com/user/sirus20x6) who had the idea first and made the [original script](https://www.reddit.com/r/electronic_cigarette/comments/4pw6kq/python_script_to_mute_your_skype_mice_when_you/)!
 
 ## Usage
-Open the script and set the `portName` variable. You can get the name from the Windows *device manager*. Everything else is optional. Keep in mind this is a basic script, but it gets the job done.
+Open [the script](/dna200-hotkey-on-pull.py) and set the [`portName`](/dna200-hotkey-on-pull.py#L27) variable. You can get the name from the Windows *device manager*. Everything else is optional, but you might want to customize the [`hotkey`](/dna200-hotkey-on-pull.py#L33). Keep in mind this is a basic script, but it gets the job done.
 
 **Requirements**
   * Windows (works on Windows 10, 64-bit)
